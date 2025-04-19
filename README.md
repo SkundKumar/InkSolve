@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://github.com/user-attachments/assets/d7c1230d-b5a0-4238-8921-1ddc5ab83cd5
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🚀 I recreated Apple’s Artificial Intelligence!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Imagine a magic canvas—not just an ordinary black screen, but a window to limitless possibilities. 🌌
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+✅ Ask Anything: Solve mathematical equations, explore world problems in physics, or dive into complex integrals.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+✅ Draw to Learn: Sketch a tree and a falling apple—watch it explain gravity.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+✅ Visual Solutions: Draw the Pythagorean theorem or an integral problem, and it’ll guide you step by step.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+It’s not just a tool—it’s the bridge between creativity and intelligence. 🖌🤖
+
+
+Try this Out Yourself: https://magic-canvas-rho.vercel.app/landing
